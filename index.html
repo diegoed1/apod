@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>APOD</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"> defer</script>
+    <script src="https://kit.fontawesome.com/db0d902087.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <nav class="title">
+            <h1>APOD NASA</h1>
+            <img class="imagem" src="nasa.png" alt="">
+    </nav>
+    <div>
+        <form action="" class="form">
+            <label for="date" id= "label-date">Insira a data:</label>
+            <input type="date" id="date" name="date" min="1995-06-20">
+            <Br></Br>
+            <a id="button">Enviar</a>
+        </form>
+        <div class="resp invisible">
+            <h3 class="titulo" id="titulo-resp">
+
+            </h3>
+            <p class="texto" id = "texto-resp">
+                
+            </p>
+        </div>
+        <div class="resp invisible">
+            <h3 class="titulo" id="titulo-resp">
+
+            </h3>
+            <p class="texto" id = "texto-resp">
+                
+            </p>
+        </div>
+    </div>
+
+    <div class="content-img ">
+        <img src="" alt="" id="img" class="invisible">
+        <iframe src="" frameborder="0" id="video" class="invisible"></iframe>
+        
+    </div>
+</body>
+</html>
