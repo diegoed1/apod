@@ -23,8 +23,8 @@ $('#button').click(function(){
     if (valida) {
         console.log(data);
         const api = $.ajax({
-            method: "GET",
-            url: `https://api.nasa.gov/planetary/apod?api_key=NqBxvsgm294FLGzK7ObEtTrcOQKp1wSlyu64wYmH&date=${data}`,
+            method: "GET", 
+            url: `https://api.nasa.gov/planetary/apod?api_key=QAnm0uzrVdFbw3lcqZURrVAlFFxirDAl4aogs37w&date=${data}`,
             success: function() {
                 const type = api.responseJSON.media_type;
                 const url = api.responseJSON.url;
